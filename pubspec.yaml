@@ -2,7 +2,7 @@ name: exists_in
 description: Package para verificar se um determinado item existe em uma lista.
 version: 0.0.1
 homepage: 'https://github.com/Markfgui675'
-repository: ''
+repository: 'https://github.com/Markfgui675/exists_in'
 
 environment:
   sdk: '>=2.18.5 <3.0.0'
