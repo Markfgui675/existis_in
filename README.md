@@ -1,4 +1,2 @@
 # Package Flutter: exists_in
-Repositório criado para um package Flutter desenvolvido em Dart, que tem como objetivo averiguar se um determinado elemento existe ou não dentro de uma lista qualquer.
-
-Ainda em desenvolvimento.
+This package aims to find out if a certain element exists or not in a list.
