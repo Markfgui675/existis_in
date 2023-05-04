@@ -27,7 +27,7 @@ class _MyWidgetState extends State<MyWidget> {
         centerTitle: true,
       ),
       body: Center(
-        child: existsIn(4, nums) ? const Text('Existe') : const Text('Não existe')
+        child: existsIn(4, nums) ? const Text('Exists') : const Text("Don't exists")
       ),
     );
   }
