@@ -23,11 +23,11 @@ class _MyWidgetState extends State<MyWidget> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Exists In?'),
+        title: const Text('Exists In?'),
         centerTitle: true,
       ),
       body: Center(
-        child: existsIn(4, nums) ? Text('Existe') : Text('Não existe')
+        child: existsIn(4, nums) ? const Text('Existe') : const Text('Não existe')
       ),
     );
   }
