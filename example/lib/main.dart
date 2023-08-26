@@ -2,7 +2,7 @@ import 'package:exists_in/exists_in.dart';
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: MyWidget(),
   ));
 }
@@ -16,7 +16,7 @@ class MyWidget extends StatefulWidget {
 
 class _MyWidgetState extends State<MyWidget> {
 
-  List<int> nums = [1, 4, 5, 6, 8];
+  final List<int> nums = [1, 4, 5, 6, 8];
 
   @override
   Widget build(BuildContext context) {
